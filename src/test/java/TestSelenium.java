@@ -18,8 +18,8 @@ public class TestSelenium {
     @Given("^username and password are ready$")
     public void givenStatement() {
 //        System.out.println("Given statement executed successfully" + a);
-        usename = "wilson.ding@vonage.com";
-        password = "Vocal@0008";
+        usename = "vonmailcheck@gmail.com";
+        password = "voncheck";
     }
 
     @When("^try to login$")
