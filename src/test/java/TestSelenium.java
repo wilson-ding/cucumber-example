@@ -44,13 +44,13 @@ public class TestSelenium {
         driver.findElement(By.xpath("//span[@class='RveJvd snByac']")).click();
 
 //        sleepFor(1000);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("totpPin")));
+        /*wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("totpPin")));
         driver.findElement(By.id("totpPin")).sendKeys("123456");
 
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[@class='RveJvd snByac']")));
         driver.findElement(By.xpath("//span[@class='RveJvd snByac']")).click();
 
-        System.out.println("xyz" + driver.findElement(By.id("totpPin")).getAttribute("data-initial-value"));
+        System.out.println("xyz" + driver.findElement(By.id("totpPin")).getAttribute("data-initial-value"));*/
     }
 
     @Then("^login successfully$")
