@@ -10,5 +10,5 @@ import cucumber.api.CucumberOptions;
         features={"src/test/resources"},
         glue = "",
         monochrome = true,
-        tags={"@SmokeTest"})
+        tags={"@SmokeTest2"})
 public class TestRunner { }
