@@ -25,7 +25,7 @@ public class TestSelenium {
     @When("^try to login$")
     public void whenStatement(){
         System.out.println("Login ...");
-        System.setProperty("webdriver.chrome.driver", "/Users/zding/Intellij-CE-2/tools/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/root/data/chromedriver");
         ChromeDriver driver = new ChromeDriver();
         driver.get("https://accounts.google.com/signin");
         driver.findElement(By.id("identifierId")).sendKeys(usename);
