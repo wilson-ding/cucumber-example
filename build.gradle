@@ -31,9 +31,6 @@ dependencies {
     // https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin
     compile group: 'org.apache.maven.plugins', name: 'maven-surefire-plugin', version: '3.0.0-M3'
 
-    // https://mvnrepository.com/artifact/io.cucumber/cucumber-java
-    compile group: 'io.cucumber', name: 'cucumber-java', version: '4.7.4'
-
 
 
 
